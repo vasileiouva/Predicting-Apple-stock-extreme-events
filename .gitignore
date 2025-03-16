@@ -1,0 +1,5 @@
+# Ignore dataset files
+data/*.csv
+
+# Ignore word documents
+*.docx

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ai2c-ml-assignment"
+version = "0.1.0"
+description = "Predicting Apple stock prices"
+authors = ["Vasileios Vasileiou <vasileiou.va@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+pandas = "^2.2.3"
+torch = "^2.6.0"
+yfinance = "^0.2.54"
+# ipykernel is optional but used for interactive runs of the code (e.g., Jupyter Notebook, VS Code interactive window)
+ipykernel = "^6.29.5"
+logging = "^0.4.9.6"
+imbalanced-learn = "^0.13.0"
+scikit-learn = "^1.6.1"
+numpy = "^2.2.3"
+argparse = "^1.4.0"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
